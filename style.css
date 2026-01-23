@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 0;
+}
+
+.main {
+    font-family: 'StratosSkyeng', sans-serif;
+    background-color: #D6D3CA;
+    width: 1200px;
+    padding: 40px 53px;
+    margin: auto;
+    box-shadow: 1px 1px 5px 1px grey;
+    background-position: center;
+}
+
+.header {
+    margin-bottom: 42px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: right;
+}
+
+.header-date {
+    text-align: right;
+    font-size: 36px;
+}
+
+.header-title {
+    font-size: 96px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content {
+    padding: ;
+    border: 4px solid black;
+    margin-bottom: 37px;
+}
+
+.content-title {
+    font-size: 64px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.content-table {
+    vertical-align: top;
+}
+
+.table-row {
+    vertical-align: top;
+}
+
+.table-data {
+    padding-right: 27px;
+}
+
+.table-data-text {
+    margin-left: 51px;
+    font-size: 24px;
+}
+
+.table-data-text {
+    margin-bottom: 41px;
+}
+
+
+img {
+    width: 483px;
+    height: 550px;
+    margin-right: 51px;
+}
+
+.advert-title {
+    font-size: 36px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.adverts {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.advert-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 347px;
+    margin-right: 22px;
+}
+
+/* :last-of-type - это псевдокласс, который выбирает самый последний элемент из всех элементов одного типа (соседних) */
+.advert-item:last-of-type {
+    margin-right: 0;
+}
