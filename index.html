@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"
-    content="IE=edge">
-    <meta name="viewport" content="width=,
-    initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Универсальный поисковик</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="search">
-        <form class="search__form">
-            <div class="search__string">
-                <input type="text"
-                class="search__input">
-                <button class="search__button">Найти</button>
+    <div class="content">
+
+        <main class="main">
+
+            <div class="state">
+                <h1 class="state__title">Пары</h1>
+                <p class="state__moves">Шаги: 0 шагов</p>
+                <p class="state__time">Время: 60 сек</p>
             </div>
-            <select class="search__select">
-                <option value="yandex">Yandex</option>
-                <option value="google">Google</option>
-                <option value="bing">Bing</option>
-                <option value="duckduckgo">DuckDuckGo</option>
-            </select>
-        </form>
+
+            <div class="board" id="gameBoard">
+                <h2 class="board__title">Настроить количество карточек (от 2 до 6)</h2>
+                <form class="board__form">
+                    <input type="number" min="2" max="6" step="2" placeholder="По горизонтали / вертикали" class="board__input">
+                    <button type="button" class="board__button">Начать</button>
+                </form>
+            </div>
+        </main>
     </div>
-
-    <script src="./script.js"></script>
+    <script src="./index.js"></script>
 </body>
-
 </html>
